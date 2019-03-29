@@ -1,19 +1,19 @@
 body {
   margin: 0;
   padding: 0;
-  color: white;
-  background: #d1d1d1;
+  color: #111111;
+  background: #ddd;
 }
 
 a {
   text-decoration: none;
-  color: #fff;
+  color: #111111;
 }
 
 nav {
   height: 50px;
   width: 100%;
-  background-color: #111111;
+  background-color: #3498db;
 }
 
 nav a {
@@ -37,4 +37,8 @@ button {
   border: none;
   width: 100px;
   border-radius: 2px;
+}
+
+h3{
+  color:#111111;
 }
