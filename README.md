@@ -7,7 +7,7 @@ This project made for NGTurkey presentation
 - [x] Atoms example
 - [x] Molecules
 - [x] Organisms
-- [x] Templat/Layout
+- [x] Template/Layout
 
 
 ## Development server
@@ -15,4 +15,4 @@ This project made for NGTurkey presentation
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 
-**contact me at : mehmetakifalp@gmail.com**
+**contact me : mehmetakifalp@gmail.com**

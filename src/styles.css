@@ -7,13 +7,13 @@ body {
 
 a {
   text-decoration: none;
-  color: #111111;
+  color: #ffffff;
 }
 
 nav {
   height: 50px;
   width: 100%;
-  background-color: #3498db;
+  background: linear-gradient(to right,#af2024 0,#7a0e10 100%);
 }
 
 nav a {
@@ -32,11 +32,12 @@ nav input {
 
 button {
   height: 30px;
-  background-color: red;
-  color: white;
+  background-color: #bdc3c7;
+  color: #111;
   border: none;
   width: 100px;
   border-radius: 2px;
+  font-weight: bold;
 }
 
 h3{
