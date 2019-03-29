@@ -9,13 +9,14 @@ import { AtomsIconComponent } from './components/atoms/atoms-icon/atoms-icon.com
 import { AtomsLinkWithIconComponent } from './components/atoms/atoms-link-with-icon/atoms-link-with-icon.component';
 import { AtomsLogoComponent } from './components/atoms/atoms-logo/atoms-logo.component';
 import { OrganismsHeaderComponent } from './components/organisms/organisms-header/organisms-header.component';
-import { OrganismsLoginComponent } from './components/organisms/organisms-header/organisms-login/organisms-login.component';
+import { OrganismsLoginComponent } from './components/organisms/organisms-login/organisms-login.component';
 import { AtomsTextComponent } from './components/atoms/atoms-text/atoms-text.component';
 import { AtomsInputWithTextComponent } from './components/atoms/atoms-input-with-text/atoms-input-with-text.component';
+import { TemplatesLoginComponent } from './components/templates/templates-login/templates-login.component';
 
 @NgModule({
   imports: [ CommonModule ],
-  exports: [ AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent, AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,AtomsInputWithTextComponent, MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent],
-  declarations: [AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent,AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,AtomsInputWithTextComponent,  MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent]
+  exports: [ AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent, AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,AtomsInputWithTextComponent, MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent, TemplatesLoginComponent],
+  declarations: [AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent,AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,AtomsInputWithTextComponent,  MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent, TemplatesLoginComponent]
 })
 export class UiModule { }

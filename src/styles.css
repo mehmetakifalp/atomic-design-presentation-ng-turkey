@@ -1,13 +1,13 @@
 body {
   margin: 0;
   padding: 0;
-  color: #ffffff;
-  background: #111111;
+  color: #111111;
+  background: #ffffff;
 }
 
 a {
   text-decoration: none;
-  color: #ffffff;
+  color: #111111;
 }
 
 nav {
@@ -41,7 +41,7 @@ button {
 }
 
 h3{
-  color:#ffffff;
+  color:#111111;
 }
 
 h5{
