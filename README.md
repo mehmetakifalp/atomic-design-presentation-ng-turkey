@@ -4,7 +4,6 @@ This project made for NGTurkey presentation
 
 ## Included
 
-To Do;
 - [x] Atoms example
 - [x] Molecules
 - [x] Organisms
