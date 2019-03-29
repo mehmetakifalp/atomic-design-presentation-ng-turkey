@@ -1,6 +1,8 @@
 
 .nav-item a {
-  color:black;
+  color:white;
+  font-size: 12px;
+  line-height: 12px;
 }
 
 li{
@@ -10,4 +12,9 @@ li{
 .navbar-nav>li {
   float: left;
   margin-left: 15px;
+  list-style: none;
+}
+
+.nav-item{
+  margin-top:7px;
 }
