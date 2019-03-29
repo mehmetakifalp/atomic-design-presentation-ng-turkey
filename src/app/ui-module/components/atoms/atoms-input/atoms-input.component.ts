@@ -20,10 +20,10 @@ export class AtomsInputComponent {
   @Input()
   inputName: string = 'inputName';
 
-  @Input()
-  inputReadonly: boolean = false;
+  @Input() inputReadonly: boolean = false;
 
-  @Input()
-  inputDisabled: boolean = false;
+  @Input() inputDisabled: boolean = false;
+
+  @Input() inputId : string = '';
 
 }

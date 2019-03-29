@@ -5,10 +5,19 @@
 
         <atoms-text textLabel="Please sign in" textClass="h3 mb-3 font-weight-normal mb-4"></atoms-text>
 
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control mb-3" placeholder="Email address">
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control mb-4" placeholder="Password">
+
+        <atoms-input-with-text inputType="email" inputId="inputEmail" inputClass="form-control mb-3" inputPlaceholder="Email address">
+            <label for="inputEmail" class="sr-only">{{'Email address'}}</label>
+        </atoms-input-with-text>
+
+
+        <atoms-input-with-text inputType="password" inputId="inputPassword" inputClass="form-control mb-4" inputPlaceholder="Password">
+            <label for="inputPassword" class="sr-only">{{'Password'}}</label>
+        </atoms-input-with-text>
+
+
+        
+
         <atoms-button buttonText="Login"></atoms-button>
       </form>
   </div>

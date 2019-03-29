@@ -11,10 +11,11 @@ import { AtomsLogoComponent } from './components/atoms/atoms-logo/atoms-logo.com
 import { OrganismsHeaderComponent } from './components/organisms/organisms-header/organisms-header.component';
 import { OrganismsLoginComponent } from './components/organisms/organisms-header/organisms-login/organisms-login.component';
 import { AtomsTextComponent } from './components/atoms/atoms-text/atoms-text.component';
+import { AtomsInputWithTextComponent } from './components/atoms/atoms-input-with-text/atoms-input-with-text.component';
 
 @NgModule({
   imports: [ CommonModule ],
-  exports: [ AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent, AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent, MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent],
-  declarations: [AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent,AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,  MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent]
+  exports: [ AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent, AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,AtomsInputWithTextComponent, MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent],
+  declarations: [AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent,AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,AtomsInputWithTextComponent,  MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent]
 })
 export class UiModule { }
