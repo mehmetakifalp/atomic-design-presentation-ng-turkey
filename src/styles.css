@@ -43,3 +43,11 @@ button {
 h3{
   color:#111111;
 }
+
+h5{
+  float:left;
+}
+
+hr{
+  width:100%;
+}

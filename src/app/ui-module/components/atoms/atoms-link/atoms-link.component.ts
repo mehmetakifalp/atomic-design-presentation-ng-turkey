@@ -7,7 +7,7 @@ import { Component,  Input } from '@angular/core';
 })
 export class AtomsLinkComponent {
 
-@Input() linkText: string = 'NGTurkey';
+@Input() linkText: string = '';
 
 @Input() linkUrl: string = 'https://github.com/ng-turkey';
 
