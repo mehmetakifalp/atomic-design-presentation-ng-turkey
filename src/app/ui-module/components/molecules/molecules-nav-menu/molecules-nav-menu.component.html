@@ -1,7 +1,5 @@
-
-
 <ul class="navbar-nav">
-    <li class="nav-item" *ngFor="let menuItem of menuItems; let index; trackBy: index">
-        <atoms-link [linkText]="menuItem.text" [linkUrl]="menuItem.url">  <atoms-icon iconClass="glyphicon" [iconName]="menuItem.icon"> </atoms-icon>  </atoms-link>
-    </li>
-  </ul>
+  <li class="nav-item" *ngFor="let menuItem of menuItems; let index; trackBy: index">
+    <atoms-link-with-icon [linkText]="menuItem.text" [linkUrl]="menuItem.url" iconClass="glyphicon" [iconName]="menuItem.icon"></atoms-link-with-icon>
+  </li>
+</ul>

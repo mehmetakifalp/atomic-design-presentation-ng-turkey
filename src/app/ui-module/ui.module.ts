@@ -9,10 +9,12 @@ import { AtomsIconComponent } from './components/atoms/atoms-icon/atoms-icon.com
 import { AtomsLinkWithIconComponent } from './components/atoms/atoms-link-with-icon/atoms-link-with-icon.component';
 import { AtomsLogoComponent } from './components/atoms/atoms-logo/atoms-logo.component';
 import { OrganismsHeaderComponent } from './components/organisms/organisms-header/organisms-header.component';
+import { OrganismsLoginComponent } from './components/organisms/organisms-header/organisms-login/organisms-login.component';
+import { AtomsTextComponent } from './components/atoms/atoms-text/atoms-text.component';
 
 @NgModule({
   imports: [ CommonModule ],
-  exports: [ AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent, AtomsLinkWithIconComponent,AtomsLogoComponent, MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent],
-  declarations: [AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent,AtomsLinkWithIconComponent,AtomsLogoComponent,  MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent]
+  exports: [ AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent, AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent, MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent],
+  declarations: [AtomsLinkComponent, AtomsInputComponent, AtomsButtonComponent,AtomsIconComponent,AtomsLinkWithIconComponent,AtomsLogoComponent,AtomsTextComponent,  MoleculesNavSearch, MoleculesNavMenuComponent, OrganismsHeaderComponent, OrganismsLoginComponent]
 })
 export class UiModule { }

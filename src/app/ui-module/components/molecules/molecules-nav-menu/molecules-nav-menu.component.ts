@@ -12,7 +12,6 @@ export interface MenuItem{
   encapsulation:ViewEncapsulation.None
 })
 export class MoleculesNavMenuComponent {
-
     @Input()
     menuItems: MenuItem[] = [
       { url: '/login', icon:'glyphicon-envelope', text:'Profile'},
@@ -20,6 +19,4 @@ export class MoleculesNavMenuComponent {
       { url: '/login', icon:'glyphicon-heart', text:'About'},
       { url: '/login', icon:'glyphicon-star', text:'Favourites'},
   ]
-
-
 }
